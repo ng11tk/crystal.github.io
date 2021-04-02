@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-weight: 500;
+  font-family: 'HelveticaNeue';
+}
+
+section {
+  width: 100%;
+  padding: 5%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-image: url(../Pic/fifa%20backgound.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.intro {
+  height: 100vh;
+}
+
+.content {
+  display: table-cell;
+}
+
+.navbar {
+    margin-top: 1em;
+    border-radius: 1%;
+    width: 175vh;
+    background: white;
+    box-shadow: 0px 0px 5px #959595;
+    margin-left: 5%;
+}
+
+.search_form input{
+    width: 149.3vh;
+    padding: 0.5em;
+    border: 2px solid #169FFF;
+}
+.search_form button{   
+    width: 20vh;
+    color: black;
+    background: white;
+    border-style: none;
+    cursor: pointer;
+    border:1px solid black;
+    padding: 0.5em;
+}
+
+.player_data{
+    width: 175vh;
+    border-radius: 1%;
+    height: 82vh;
+    background-color: white;
+    box-shadow: 0px 0px 2px #959595;
+}
+
+footer {
+  padding: 2% 5%;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
