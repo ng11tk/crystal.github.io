@@ -14,7 +14,7 @@ section {
   display: table;
   margin: 0;
   max-width: none;
-  background-image: url(../Pic/fifa%20backgound.png);
+  background-image: url(fifa%20backgound.png);
   background-size: cover;
   height: 100vh;
 }
