@@ -8,15 +8,15 @@
 <html>
 <head>
 	<title>Player information</title>
-	<link rel="stylesheet" href="css/project.css">
+	<link rel="stylesheet" href="project.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body style="background-image: url('Pic/fifa-18-4k-q4.jpg')">
+<body style="background-image: url('fifa-18-4k-q4.jpg')">
 	<h1 class="h">FIFA Player</h1>
 <div class="frame">
     <div class="container1" >
-        <form action="includes/log-in.inc.php" method="Post">
+        <form action="log-in.inc.php" method="Post">
 			<div class="sign-in">Sign in</div>
 
 			<input type="text" name="mailuid" placeholder="UserId"><br>
